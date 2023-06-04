@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+.App{
+  background-color: #D9D9D9;
+}
+body{
+  text-decoration: none !important;
+  width: 100%;
+  height: 100%;
+  background-color: #D9D9D9 !important;
+  
+}
+.HeroSection{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-content: center;
+  overflow: hidden;
+  
+}
+.bg-video__overlay{
+  background-color: black;
+  opacity: 0.95;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.herotext{
+  color: white !important;
+  position: relative;
+  transform: translate(50%, 50%);
+}
+nav{
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  height: 70px;
+  width: 100%;
+  display: flex;
+}
+nav img{
+  width: auto;
+  height: 100%;
+  margin: 15px 0px 0px 30px;
+}
+ol{
+  list-style: none;
+  display: flex;
+  padding-left: 67% !important;
+  
+}
+ol li{
+  color: white;
+  font-size: 20px;
+  margin: 5px 0px 0px 20px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+.herotextk{
+  left: calc(60% - 795px/2 + 5px);
+  top: calc(50% - 150px/2 - 45.5px);
+  font-size: 60px;
+  color: white !important;
+  position: absolute;
+  z-index: 5;
+  font-family: 'Rancho';
+}
+
+
+h3{
+  text-align: center;
+  border: 2px solid #FFC10B;
+  width: 40%;
+  font-size: 22px !important;
+  padding: 5px;
+  border-radius: 8px;
+ 
+  cursor: pointer;
+}
